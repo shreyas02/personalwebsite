@@ -1,0 +1,110 @@
+*{
+    background-color: rgb(250 250 250);
+}
+/*<!--navigation bar-->*/
+li.nav{
+    float: right;
+  }
+li.logo{
+    float: left;
+}
+  ul.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(250 250 250);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+ a.nav {
+    display: block;
+    color: #0e4d64;
+    font-size: 2rem;
+    text-align: center;
+    padding:1rem 1rem;
+    text-decoration: none;
+  }
+ a.nav:hover{
+    opacity: 0.5;
+ }
+ img.logo{
+    display:block;
+    margin-left: 3rem;
+    margin-right: auto;
+    height:4rem;
+  }
+  img.logo:hover {
+    opacity: 0.5;
+  }
+
+
+  /*footer*/
+div.footer {
+    position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 2rem;
+     background-color:black;
+     }
+  ul.footer{
+      position: absolute;
+      top: 50%;
+      right:1rem;
+      transform: translate(-50%, -50%);
+      padding: 0;
+      margin: 0;
+      display: flex;
+      background-color: black;
+      float: right;
+  }
+  ul.footer li {
+      list-style: none;
+      margin: 2px;
+  }
+  ul.footer li .fa {
+      color: #000000;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      transition: .5s;
+  }
+  ul.footer li a:hover {
+      transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  }
+  ul.footer li a {
+      position: relative;
+      display: block;
+      width: 1.5rem;
+      height: 1.5rem;
+      background-color: white;
+      text-align: center;
+      transition: 0.5s;
+      transform: translate(0,0px);
+      box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  }
+    /*body*/
+    div.body{
+      display:"flex";
+      flex-direction: column;
+    }
+    img.web{
+      height:20rem;
+      padding-left: 43%;
+    }
+    h1.webhead{
+      text-align: center;
+      color: #0e4d64;
+    }
+    p.webhead{
+       text-align: center;
+       color: #0e4d64;
+       font-size: 1.5rem;
+       letter-spacing: 3px;
+       line-height: 1.8;
+    }
+   
